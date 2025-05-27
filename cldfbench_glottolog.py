@@ -156,11 +156,12 @@ name | affiliation | orcid | github | role
             ds.add_sources(Source(e.type, e.fields['glottolog_ref_id'], _check_id=False, **e.fields))
 
         languoids = collections.OrderedDict((lang.id, lang) for lang in glottolog.languoids())
-        lg_mas = collections.defaultdict(set)
+        lg_mas = collections.defaultdict(set)  # Aggregate macroareas for families.
         for lg in languoids.values():
             for _, gc, _ in lg.lineage:
                 lg_mas[gc] |= set(ma.name for ma in lg.macroareas)
                 lg_mas[lg.id] |= set(ma.name for ma in lg.macroareas)
+
         lbc = glottolog.languoids_by_code(languoids)
         refs_by_languoid, refs = collections.defaultdict(list), {}
         for e in BibFile(fname=glottolog.build_path('monster-utf8.bib'), api=glottolog).iterentries():
@@ -333,6 +334,12 @@ name | affiliation | orcid | github | role
                     [m.text() for m in meds] or None,
                     Source=[str(Reference(m.fields['glottolog_ref_id'], str(m.year_int))) for m in meds],
                     Code_ID=None,
+                ),
+                value(
+                    lang.id,
+                    'bib',
+                    bool(refs_by_languoid[lang.id]) or None,
+                    Source=sorted(refs_by_languoid.get(lang.id, [])),
                 )
             ]))
 
