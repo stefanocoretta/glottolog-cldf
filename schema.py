@@ -68,5 +68,13 @@ PARAMETER_INFO = {
         'description of the valid values.',
         'langdoc/status',
         'sequential',
+    ),
+    'bib': ParamInfo(
+        Datatype.fromvalue({'base': 'boolean', 'format': 'see Source|none'}),
+        'Bibliography',
+        "Items from Glottolog's bibliography which are linked to a languoid are referenced "
+        "from the Source field of values for this parameter.",
+        None,
+        None,
     )
 }

@@ -5,6 +5,16 @@ All notable changes to this dataset will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 
+## [5.2] - 2025-05-27
+
+Based on Glottolog v5.2
+
+- Added a Parameter "bib", where the "Source" field of a Value for a languoid lists all
+  items in Glottolog's bibliography which are tagged for the languoid.
+- Fill in "Macroarea" for family-level languoids (as union of all macroareas for contained
+  languoids).
+
+
 ## [5.1] - 2024-10-29
 
 Based on Glottolog v5.1.

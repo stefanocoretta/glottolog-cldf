@@ -6,3 +6,4 @@ subclassification,Subclassification,"Newick-formatted (sub)tree of descendants o
 med,Most Extensive Description,The Most Extensive Description known for a given language. See CodeTable for a description of the valid values.,,sequential,meta/glossary#sec-mostextensivedescriptionmed,"{""base"": ""integer"", ""minimum"": ""0"", ""maximum"": ""4""}",
 medovertime,Most Extensive Description over time,The Most Extensive Description for a given language over time.,,,,"""json""",
 aes,Agglomerated Endangerment Status,Language endangerment status compiled from various sources. See CodeTable for a description of the valid values.,,sequential,langdoc/status,"{""base"": ""integer"", ""minimum"": ""1"", ""maximum"": ""6""}",
+bib,Bibliography,Items from Glottolog's bibliography which are linked to a languoid are referenced from the Source field of values for this parameter.,,,,"{""base"": ""boolean"", ""format"": ""see Source|none""}",

@@ -1,4 +1,4 @@
-# glottolog/glottolog: Glottolog database 5.1 as CLDF
+# glottolog/glottolog: Glottolog database 5.2 as CLDF
 
 [![CLDF validation](https://github.com/glottolog/glottolog-cldf/workflows/CLDF-validation/badge.svg)](https://github.com/glottolog/glottolog-cldf/actions?query=workflow%3ACLDF-validation)
 
@@ -6,7 +6,7 @@
 
 If you use these data please cite
 - the original source
-  > Hammarström, Harald & Forkel, Robert & Haspelmath, Martin & Bank, Sebastian. 2024. Glottolog 5.1. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at https://glottolog.org)
+  > Hammarström, Harald & Forkel, Robert & Haspelmath, Martin & Bank, Sebastian. 2025. Glottolog 5.2. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at https://glottolog.org)
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
@@ -30,6 +30,7 @@ subclassification | Subclassification | Newick-formatted (sub)tree of descendant
 med | Most Extensive Description | The Most Extensive Description known for a given language. See CodeTable for a description of the valid values.
 medovertime | Most Extensive Description over time | The Most Extensive Description for a given language over time.
 aes | Agglomerated Endangerment Status | Language endangerment status compiled from various sources. See CodeTable for a description of the valid values.
+bib | Bibliography | Items from Glottolog's bibliography which are linked to a languoid are referenced from the Source field of values for this parameter.
 
 
 ## CLDF Datasets

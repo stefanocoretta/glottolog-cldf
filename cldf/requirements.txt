@@ -6,7 +6,7 @@ bs4==0.0.2
 certifi==2024.8.30
 chardet==5.2.0
 cldfbench==1.14.0
--e git+https://github.com/glottolog/glottolog-cldf.git@1eae737024e03d9e32b3b50571ea9997537344ab#egg=cldfbench_glottolog
+-e git+https://github.com/glottolog/glottolog-cldf.git@7ee20d7235594ee06e46e9b6ff8c00e9175c2086#egg=cldfbench_glottolog
 cldfcatalog==1.5.1
 cldfzenodo==2.1.2
 clldutils==3.23.0
@@ -15,6 +15,7 @@ colorlog==6.8.2
 csvw==3.5.0
 gitdb==4.0.11
 greenlet==3.1.1
+html5lib==1.1
 idna==3.10
 iniconfig==2.0.0
 isodate==0.7.2
@@ -31,7 +32,7 @@ pluggy==1.5.0
 pybtex==0.24.0
 pycldf==1.39.0
 pycountry==23.12.11
--e git+https://github.com/glottolog/pyglottolog@78eeab7bd6982b5bbf83c83936d557248ef5d9f7#egg=pyglottolog
+-e git+https://github.com/glottolog/pyglottolog@ef49281a7a26062e8b468cb71c04e446feda973d#egg=pyglottolog
 pylatexenc==2.10
 pyproj==3.7.0
 pytest==8.3.3
@@ -51,5 +52,6 @@ termcolor==2.5.0
 tqdm==4.66.5
 uritemplate==4.1.1
 urllib3==2.2.3
+webencodings==0.5.1
 xlrd==2.0.1
 zenodoclient==0.5.1
