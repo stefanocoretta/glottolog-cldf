@@ -156,6 +156,11 @@ name | affiliation | orcid | github | role
             ds.add_sources(Source(e.type, e.fields['glottolog_ref_id'], _check_id=False, **e.fields))
 
         languoids = collections.OrderedDict((lang.id, lang) for lang in glottolog.languoids())
+        lg_mas = collections.defaultdict(set)
+        for lg in languoids.values():
+            for _, gc, _ in lg.lineage:
+                lg_mas[gc] |= set(ma.name for ma in lg.macroareas)
+                lg_mas[lg.id] |= set(ma.name for ma in lg.macroareas)
         lbc = glottolog.languoids_by_code(languoids)
         refs_by_languoid, refs = collections.defaultdict(list), {}
         for e in BibFile(fname=glottolog.build_path('monster-utf8.bib'), api=glottolog).iterentries():
@@ -232,7 +237,7 @@ name | affiliation | orcid | github | role
                 ISO639P3code=lang.iso,
                 Latitude=latlon[0],
                 Longitude=latlon[1],
-                Macroarea=[ma.name for ma in lang.macroareas],
+                Macroarea=sorted(lg_mas[lang.id]),
                 Countries=[c.id for c in lang.countries],
                 Family_ID=lang.lineage[0][1] if lang.lineage else None,
                 Language_ID=lid,
