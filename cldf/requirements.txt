@@ -6,7 +6,7 @@ bs4==0.0.2
 certifi==2024.8.30
 chardet==5.2.0
 cldfbench==1.14.0
--e git+https://github.com/glottolog/glottolog-cldf.git@7ee20d7235594ee06e46e9b6ff8c00e9175c2086#egg=cldfbench_glottolog
+-e git+https://github.com/glottolog/glottolog-cldf.git@236533b0da499ea4114d43a2695bcbf56b59ae44#egg=cldfbench_glottolog
 cldfcatalog==1.5.1
 cldfzenodo==2.1.2
 clldutils==3.23.0
@@ -32,7 +32,7 @@ pluggy==1.5.0
 pybtex==0.24.0
 pycldf==1.39.0
 pycountry==23.12.11
--e git+https://github.com/glottolog/pyglottolog@ef49281a7a26062e8b468cb71c04e446feda973d#egg=pyglottolog
+-e git+https://github.com/glottolog/pyglottolog@7e6cd3262196e93892573de030a42ca1afbef920#egg=pyglottolog
 pylatexenc==2.10
 pyproj==3.7.0
 pytest==8.3.3
@@ -43,6 +43,7 @@ referencing==0.35.1
 requests==2.32.3
 rfc3986==1.5.0
 shapely==2.0.6
+-e git+https://github.com/cldf/simplepybtex@09a7ecfd47001669617e6b34900511c45c76d5e4#egg=simplepybtex
 six==1.16.0
 smmap==5.0.1
 soupsieve==2.6

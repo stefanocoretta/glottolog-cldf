@@ -5,6 +5,16 @@ All notable changes to this dataset will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 
+## [5.2.1] - 2025-06-11
+
+Bugfix release addressing two issues:
+
+- Jebel El Amira was erroneously classified as isolate in Glottolog 5.2
+- Reference links in endangerment comments harvested from ElCat were broken due to the
+  merging of the ElCat bibliography into the aggregated CLDF bib.
+
+
+
 ## [5.2] - 2025-05-27
 
 Based on Glottolog v5.2

@@ -15,8 +15,8 @@ property | value
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://glottolog.org
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/glottolog/glottolog-cldf
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/glottolog/glottolog-cldf/tree/7ee20d7">glottolog/glottolog-cldf v5.1-2-g7ee20d7</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.2">Glottolog v5.2</a></li></ol>
-[prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><a href="https://github.com/glottolog/pyglottolog/tree/3.15.1.dev0">glottolog/pyglottolog 3.15.1.dev0</a></li><li><strong>python</strong>: 3.12.3</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/glottolog/glottolog-cldf/tree/v5.2">glottolog/glottolog-cldf v5.2</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.2.1">Glottolog v5.2.1</a></li></ol>
+[prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><a href="https://github.com/glottolog/pyglottolog/tree/3.16.1.dev0">glottolog/pyglottolog 3.16.1.dev0</a></li><li><strong>python</strong>: 3.12.3</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | glottolog
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
 
@@ -26,7 +26,7 @@ property | value
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF ValueTable](http://cldf.clld.org/v1.0/terms.rdf#ValueTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 144176
+[dc:extent](http://purl.org/dc/terms/extent) | 144189
 
 
 ### Columns
@@ -90,7 +90,7 @@ This table lists all Glottolog languoids, i.e. families, languages and dialects 
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF LanguageTable](http://cldf.clld.org/v1.0/terms.rdf#LanguageTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 27034
+[dc:extent](http://purl.org/dc/terms/extent) | 27037
 
 
 ### Columns
@@ -119,7 +119,7 @@ Alternative names for Glottolog languoids  from various sources.
 
 property | value
  --- | ---
-[dc:extent](http://purl.org/dc/terms/extent) | 120159
+[dc:extent](http://purl.org/dc/terms/extent) | 120161
 
 
 ### Columns
@@ -137,7 +137,7 @@ Name/Property | Datatype | Description
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF TreeTable](http://cldf.clld.org/v1.0/terms.rdf#TreeTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 246
+[dc:extent](http://purl.org/dc/terms/extent) | 247
 
 
 ### Columns

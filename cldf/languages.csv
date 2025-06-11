@@ -47,7 +47,6 @@ cand1248,Candoshi-Shapra,South America,-4.23835,-76.9347,cand1248,cbu,language,P
 jiva1245,Chicham,South America,-4.2871412499999995,-77.79803749999999,jiva1245,,family,,,,,,,
 hata1242,Hatam-Mansim,Papunesia,-1.025182,134.024058,hata1242,,family,,,,,,,
 buru1296,Burushaski,Eurasia,36.2161,74.8236,buru1296,bsk,language,IN;PK,,,bsk,,,true
-lafo1243,Lafofa,Africa,10.3357,30.7331,lafo1243,laf,language,SD,,,laf,,,true
 huav1256,Huavean,North America,16.268133856000077,-94.77989661399994,huav1256,,family,,,,,,,
 cofa1242,Cofán,South America,0.276675,-77.0643,cofa1242,con,language,CO;EC,,,con,,,true
 kadu1256,Kadugli-Krongo,Africa,11.095941666666667,29.483575,kadu1256,,family,,,,,,,
@@ -111,7 +110,6 @@ kamu1264,Kamula-Elevala,Papunesia,-6.73238,142.11700000000002,kamu1264,,family,,
 shas1238,Shastan,North America,41.281879333333336,-122.998216,shas1238,,family,,,,,,,
 savo1255,Savosavo,,-9.12853,159.814,savo1255,svs,language,SB,,,svs,,,true
 mass1263,Massep,,-1.74679,138.294,mass1263,mvs,language,ID,,,mvs,,,true
-amir1234,Amira,,10.0546,30.71992,amir1234,,language,SD,,,,,,true
 turk1311,Turkic,Eurasia,49.341856425164146,64.80940627642022,turk1311,,family,,,,,,,
 katu1274,Katukinan,South America,-6.852069999999999,-66.79984999999999,katu1274,,family,,,,,,,
 kaki1249,Kaki Ae,,-7.9946,145.816,kaki1249,tbd,language,PG,,,tbd,,,true
@@ -353,7 +351,7 @@ suki1244,Suki-Gogodala,Papunesia,-8.06909625,142.24824999999998,suki1244,,family
 nara1262,Nara,Africa,15.3251,37.499,nara1262,nrb,language,ER,,,nrb,,,true
 fuln1247,Fulniô,South America,-9.02591,-37.1402,fuln1247,fun,language,BR,,,fun,,,true
 mato1253,Mato Grosso Arára,,-9.172609,-60.628867,mato1253,axg,language,BR,,,axg,,2007,true
-bain1263,Baining,Papunesia,-4.6753685150092075,151.90440435171925,bain1263,,family,,,,,,,
+bain1263,Baining,Papunesia,-4.656831111111112,151.80572222222222,bain1263,,family,,,,,,,
 nyim1244,Nyimang,Africa,12.272649999999997,30.09715,nyim1244,,family,,,,,,,
 kano1245,Kanoê,,-12.1789,-64.5812,kano1245,kxo,language,BR,,,kxo,,,true
 coto1248,Cotoname,,25.9116,-97.3956,coto1248,xcn,language,MX,,,xcn,,1875,true
@@ -419,6 +417,7 @@ gaga1251,Gaagudju,,-12.5176,132.643,gaga1251,gbu,language,AU,,,gbu,,2002,true
 sepi1257,Sepik,Papunesia,-4.057991401943451,142.17401319345498,sepi1257,,family,,,,,,,
 mero1237,Meroitic,,16.9333,33.7333,mero1237,xmr,language,SD,,,xmr,-250,300,true
 huit1251,Huitotoan,South America,-1.4693629999999998,-71.99425116666667,huit1251,,family,,,,,,,
+tege1244,Tegem,Africa,10.19515,30.726509999999998,tege1244,,family,,,,,,,
 nubi1251,Nubian,Africa,16.34286500615588,29.126707595234738,nubi1251,,family,,,,,,,
 jarr1235,Jarrakan,Australia,-16.74745,128.20725,jarr1235,,family,,,,,,,
 lara1258,Laragia,,-12.4111,130.922,lara1258,lrg,language,AU,,,lrg,,,true
@@ -574,9 +573,6 @@ hata1243,Hatam,Papunesia,-1.13531,134.037,hata1243,had,language,ID,hata1242,,had
 hunz1248,Hunza,Eurasia,36.2161,74.8236,hunz1248,,dialect,,buru1296,buru1296,bsk,,,
 yasi1237,Yasin,Eurasia,36.2161,74.8236,yasi1237,,dialect,,buru1296,buru1296,bsk,,,
 naga1398,Nagar,Eurasia,36.2161,74.8236,naga1398,,dialect,,buru1296,buru1296,bsk,,,
-jebe1248,Jebel El Amira,Africa,10.3357,30.7331,jebe1248,,dialect,,lafo1243,lafo1243,laf,,,
-jebe1249,Jebel Tekeim,Africa,10.3357,30.7331,jebe1249,,dialect,,lafo1243,lafo1243,laf,,,
-nucl1340,Nuclear Lafofa,Africa,10.3357,30.7331,nucl1340,,dialect,,lafo1243,lafo1243,laf,,,
 sanf1267,San Francisco-Santa María Huave,North America,16.236673352271797,-94.69076578299064,sanf1267,,family,,huav1256,,,,,
 sand1283,San Dionisio-San Mateo Huave,North America,16.276849473336995,-94.84804217519549,sand1283,,family,,huav1256,,,,,
 agua1254,Aguarico,South America,0.276675,-77.0643,agua1254,,dialect,,cofa1242,cofa1242,con,,,
@@ -1740,12 +1736,9 @@ east2795,Eastern Nara,Africa,15.3251,37.499,east2795,,dialect,,nara1262,nara1262
 west2879,Western Nara,Africa,15.3251,37.499,west2879,,dialect,,nara1262,nara1262,nrb,,,
 fuln1248,Fulniô Proper,South America,-9.02591,-37.1402,fuln1248,,dialect,,fuln1247,fuln1247,fun,,,
 yate1241,Yatê,South America,-9.02591,-37.1402,yate1241,,dialect,,fuln1247,fuln1247,fun,,,
+sout3426,Southern Baining,Papunesia,-4.637963333333333,152.00616666666667,sout3426,,family,,bain1263,,,,,
 qaqe1238,Qaqet,Papunesia,-4.45258,151.702,qaqe1238,byx,language,PG,bain1263,,byx,,,false
-kair1267,Kairak,Papunesia,-4.46941,151.98,kair1267,ckr,language,PG,bain1263,,ckr,,,false
-urap1240,Ura (Papua New Guinea),Papunesia,-4.64226,151.953,urap1240,uro,language,PG,bain1263,,uro,,,false
 unun9989,Unclassified Baining,Papunesia,-4.87995,151.709,unun9989,,family,,bain1263,,,,,
-mali1284,Mali,Papunesia,-4.71826,152.214,mali1284,gcc,language,PG,bain1263,,gcc,,,false
-simb1259,Simbali,Papunesia,-4.88618,151.957,simb1259,smg,language,PG,bain1263,,smg,,,false
 amas1236,Ama (Sudan),Africa,12.0993,29.4332,amas1236,nyi,language,SD,nyim1244,,nyi,,,false
 afit1238,Afitti,Africa,12.446,30.7611,afit1238,aft,language,SD,nyim1244,,aft,,,false
 pani1260,South Páez,South America,2.61516,-76.31254,pani1260,,dialect,,paez1247,paez1247,pbb,,,
@@ -1870,6 +1863,8 @@ sepi1256,Sepik Tama,Papunesia,-3.9040625,142.42033333333336,sepi1256,,family,,se
 nonu1240,Nonuya-Ocaina,South America,-1.7045,-72.3211,nonu1240,,family,,huit1251,,,,,
 nucl1659,Nuclear Witotoan,South America,-1.8429849999999997,-72.2139,nucl1659,,family,,huit1251,,,,,
 unun9983,Unclassified Huitotoan,South America,-0.860604,-71.4477535,unun9983,,family,,huit1251,,,,,
+lafo1243,Lafofa,Africa,10.3357,30.7331,lafo1243,laf,language,SD,tege1244,,laf,,,false
+amir1234,Amira,Africa,10.0546,30.71992,amir1234,,language,SD,tege1244,,,,,false
 nile1239,Nile Nubian,Africa,21.03557825,31.846164249999998,nile1239,,family,,nubi1251,,,,,
 mido1240,Midob,Africa,14.789,27.2236,mido1240,mei,language,SD,nubi1251,,mei,,,false
 cent2232,Central Nubian,Africa,13.204016768467639,28.3103585357042,cent2232,,family,,nubi1251,,,,,
@@ -3291,6 +3286,9 @@ moga1248,Mogareb,Africa,15.3251,37.499,moga1248,,dialect,,nara1262,nara1262,nrb,
 higi1240,Higir,Africa,15.3251,37.499,higi1240,,dialect,,nara1262,nara1262,nrb,,,
 sant1412,Santora,Africa,15.3251,37.499,sant1412,,dialect,,nara1262,nara1262,nrb,,,
 koyt1238,Koyta,Africa,15.3251,37.499,koyt1238,,dialect,,nara1262,nara1262,nrb,,,
+kair1267,Kairak,Papunesia,-4.46941,151.98,kair1267,ckr,language,PG,bain1263,,ckr,,,false
+urap1240,Ura (Papua New Guinea),Papunesia,-4.64226,151.953,urap1240,uro,language,PG,bain1263,,uro,,,false
+mali1290,Mali-Simbali,Papunesia,-4.80222,152.0855,mali1290,,family,,bain1263,,,,,
 mako1250,Makolkol,Papunesia,-4.87995,151.709,mako1250,zmh,language,PG,bain1263,,zmh,,2016,false
 lowe1397,Lower Bal,Eurasia,42.9134,42.5915,lowe1397,,dialect,,kart1248,svan1243,sva,,,
 lent1241,Lentex,Eurasia,42.9134,42.5915,lent1241,,dialect,,kart1248,svan1243,sva,,,
@@ -3500,6 +3498,9 @@ mini1255,Minica-Murui,South America,-1.3410199999999999,-73.4719,mini1255,,famil
 nupo1240,Nüpode Huitoto,South America,-2.34495,-70.9559,nupo1240,hux,language,BR;CO;PE,huit1251,,hux,,,false
 ando1254,Andoquero,South America,-0.666992,-72.310867,ando1254,,language,CO,huit1251,,,,1867,false
 coer1236,Coeruna,South America,-1.054216,-70.58464,coer1236,,language,CO,huit1251,,,,1867,false
+jebe1248,Jebel El Amira,Africa,10.3357,30.7331,jebe1248,,dialect,,tege1244,lafo1243,laf,,,
+jebe1249,Jebel Tekeim,Africa,10.3357,30.7331,jebe1249,,dialect,,tege1244,lafo1243,laf,,,
+nucl1340,Nuclear Lafofa,Africa,10.3357,30.7331,nucl1340,,dialect,,tege1244,lafo1243,laf,,,
 kenu1236,Kenuzi-Dongola,Africa,21.2837,31.8992,kenu1236,kzh,language,EG;SD,nubi1251,,kzh,,,false
 nobi1239,Nobiin Nubian,Africa,20.787456499999998,31.7931285,nobi1239,,family,,nubi1251,,,,,
 kaag1238,Kaageddi,Africa,14.789,27.2236,kaag1238,,dialect,,nubi1251,mido1240,mei,,,
@@ -5103,6 +5104,8 @@ trav1236,Traveller Norwegian,Eurasia,62.6217,9.48913,trav1236,rmg,language,NO,sp
 tavr1235,Tavringer Romani,Eurasia,62.2313,14.4036,tavr1235,rmu,language,NO;SE,spee1234,,rmu,,,false
 waru1267,Waruna,Papunesia,-8.23565,142.47,waru1267,wrv,language,PG,suki1244,,wrv,,,false
 arii1243,Ari,Papunesia,-7.95526,142.4,arii1243,aac,language,PG,suki1244,,aac,,,false
+mali1284,Mali,Papunesia,-4.71826,152.214,mali1284,gcc,language,PG,bain1263,,gcc,,,false
+simb1259,Simbali,Papunesia,-4.88618,151.957,simb1259,smg,language,PG,bain1263,,smg,,,false
 nucl1302,Georgian,Eurasia,41.850397,43.78613,nucl1302,kat,language,AM;AZ;GE;IR;RU;TR,kart1248,,kat,,,false
 oldg1234,Old Georgian,Eurasia,41.604313,43.06151,oldg1234,oge,language,GE,kart1248,,oge,400,1000,false
 lazz1240,Laz,Eurasia,41.5004,41.9096,lazz1240,lzz,language,GE;TR,kart1248,,lzz,,,false
@@ -22665,7 +22668,7 @@ mend1261,Mendankwe-Nkwen,Africa,6.00034,10.2307,mend1261,mfd,language,CM,atla127
 ngem1255,Ngemba,Africa,5.97864,10.1469,ngem1255,nge,language,CM,atla1278,,nge,,,false
 bafu1246,Bafut,Africa,6.14153,10.1194,bafu1246,bfd,language,CM,atla1278,,bfd,,,false
 bamb1266,Bambili-Bambui,Africa,6.10821,10.2233,bamb1266,baw,language,CM,atla1278,,baw,,,false
-kwaa1265,Kwa',Africa,4.88273,10.3453,kwaa1265,bko,language,CM,atla1278,,bko,,,false
+kwaa1265,Nsiteu-Kwa',Africa,4.88273,10.3453,kwaa1265,bko,language,CM,atla1278,,bko,,,false
 ndan1241,Nda'nda',Africa,5.14715,10.3942,ndan1241,nnz,language,CM,atla1278,,nnz,,,false
 fefe1239,Fe'fe',Africa,5.18158,10.1442,fefe1239,fmp,language,CM,atla1278,,fmp,,,false
 ghom1247,Ghomálá',Africa,5.39619,10.352,ghom1247,bbj,language,CM,atla1278,,bbj,,,false
